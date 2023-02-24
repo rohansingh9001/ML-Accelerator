@@ -25,7 +25,7 @@ module TestBitLeftShift16();
     reg [15:0] b;
     wire [15:0] out;
     
-    BitShiftLeft16 BitShiftLeft16_1 ( .a(a), .b(b), .out(out));
+    BitLeftShift16 BitShiftLeft16_1 ( .a(a), .b(b), .out(out));
     
     initial begin
     
