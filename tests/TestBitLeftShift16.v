@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 `timescale 1ns / 1ps
-module TestBitShift16();
+module TestBitLeftShift16();
     reg [15:0] a;
     reg [15:0] b;
     wire [15:0] out;
